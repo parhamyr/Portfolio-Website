@@ -51,6 +51,7 @@
    }
    article{
     font-size: 1rem;
+    align-items: center;
    }
    footer nav{
     height: fit-content;
