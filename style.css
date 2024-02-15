@@ -9,8 +9,8 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif
-}
+    font-family: "Poppins", sans-serif;
+  }
 
 html{
     scroll-behavior: smooth;
@@ -281,16 +281,17 @@ section{
   .about-details-container{
     justify-content: center;
     flex-direction: column;
+    height: fit-content;
   }
 
   .about-containers,
   .about-details-container{
-    display: flex;
+    display: flex;    
   }
 
   .about-pic{
     border-radius: 2rem;
-    
+    scale: 80%;
   }
 
   .arrow{
@@ -319,6 +320,7 @@ section{
     width: 500px;
     margin: auto 0;
   }
+
 
   /* EXPERIENCE SECTION */
 
@@ -439,3 +441,26 @@ section{
   footer p{
     text-align: center;
   }
+
+  /* .car{
+    position: absolute;
+    top: -100px;
+    left: -250px;
+    scale: 20%;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    animation-name: drive;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 200;
+  } */
+/* 
+  @keyframes drive{
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(12500px);
+    }
+  } */
