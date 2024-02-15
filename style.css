@@ -10,6 +10,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    /* background: var(--primary-color); */
   }
 
 html{
@@ -50,22 +51,28 @@ a{
     color: rgb(7, 211, 177); /*link text color*/
     text-decoration: none;
     text-decoration-color: white;
+    transition: color 300ms;
+    /* transition: scale 300ms; */
 }
 
 a:hover{
+    
     color: gray;
     text-decoration: underline;
     text-underline-offset: .5rem;
     text-decoration-color: rgb(181, 181, 181);
+    scale: 20%;
     /* cursor: crosshair  PUT SOMETHING UNIQUE AND COOL HERE*/
 }
 
 .logo{
     font-size: 2rem;
+    transition: scale 300ms;
 }
 
 .logo:hover{
     cursor: default;
+    scale: 150%;
 }
 
 
@@ -298,6 +305,12 @@ section{
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+    transition: scale 300ms;
+    
+  }
+
+  .arrow:hover{
+    scale: 120%;
   }
 
   .details-container{

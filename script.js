@@ -4,3 +4,8 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function toggleNightMode(){
+    const nighticon =  document.querySelector(".logo");
+    nighticon.body.classList.toggle(".dark-theme");
+}
