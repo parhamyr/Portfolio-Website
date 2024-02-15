@@ -420,6 +420,7 @@ section{
     margin: 2rem auto;
     margin: 2rem auto;
     padding: 0.5rem;
+    gap: .5rem;
   }
 
   .contact-info-container{
@@ -454,26 +455,3 @@ section{
   footer p{
     text-align: center;
   }
-
-  /* .car{
-    position: absolute;
-    top: -100px;
-    left: -250px;
-    scale: 20%;
-    margin: 0;
-    display: flex;
-    justify-content: left;
-    animation-name: drive;
-    animation-duration: 2s;
-    animation-fill-mode: both;
-    animation-iteration-count: 200;
-  } */
-/* 
-  @keyframes drive{
-    from {
-      transform: translateX(-250px);
-    }
-    to {
-      transform: translateX(12500px);
-    }
-  } */
