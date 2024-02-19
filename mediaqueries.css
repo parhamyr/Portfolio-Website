@@ -12,7 +12,10 @@
     }
   }
   
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1200px){
+    body{
+      width: 100%;
+    }
     #desktop-nav {
       display: none;
     }
